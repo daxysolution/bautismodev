@@ -170,8 +170,6 @@ La aplicación proporciona estadísticas en tiempo real:
 - Cambiar asunto y contenido
 - Agregar firmas personalizadas
 
-## 📞 Soporte
-
 ### Verificación de instalación
 ```bash
 python -c "import tkinter; print('✅ Tkinter disponible')"
@@ -194,11 +192,3 @@ python -c "import PyPDF2; print('✅ PyPDF2 disponible')"
 - ✅ Exportación a Excel
 - ✅ Modo línea de comandos
 - ✅ Compatibilidad PyInstaller
-
-## 📄 Licencia
-
-Este proyecto es de uso libre para organizaciones religiosas y educativas.
-
----
-
-**Desarrollado con ❤️ para automatizar la gestión de certificados de bautismo** 
