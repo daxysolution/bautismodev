@@ -1,0 +1,7 @@
+pandas
+PyPDF2
+yagmail
+python-dotenv
+openpyxl
+PyMuPDF
+reportlab 

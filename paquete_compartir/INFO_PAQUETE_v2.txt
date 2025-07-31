@@ -1,0 +1,61 @@
+🎯 CERTIFICADOR DE BAUTISMOS v2.0
+==================================================
+
+📦 PAQUETE DE DISTRIBUCIÓN
+Fecha de creación: 26/07/2025 13:34:08
+Versión: 2.0
+
+🚀 NUEVAS FUNCIONALIDADES v2.0:
+✅ Formularios PDF funcionales
+✅ Edición y reenvío de certificados
+✅ Base de datos mejorada
+✅ Interfaz gráfica completa
+✅ Detección automática de campos
+✅ Mapeo configurable de campos
+✅ Regeneración de certificados
+✅ Reenvío de emails
+
+📁 ESTRUCTURA DEL PAQUETE:
+├── CertificadorBautismos.exe    # Aplicación principal
+├── data/                        # Archivos de configuración
+│   ├── template.pdf             # Template PDF
+│   └── field_mapping.json       # Mapeo de campos (opcional)
+├── output/                      # Certificados generados
+├── .env.ejemplo                 # Configuración de email
+└── INFO_PAQUETE_v2.txt         # Este archivo
+
+🎯 INSTRUCCIONES DE USO:
+
+1. CONFIGURACIÓN INICIAL:
+   - Copia .env.ejemplo como .env
+   - Configura tus credenciales de email
+   - Asegúrate de que data/template.pdf existe
+
+2. EJECUTAR LA APLICACIÓN:
+   - Doble clic en CertificadorBautismos.exe
+   - O desde línea de comandos: CertificadorBautismos.exe
+
+3. FUNCIONES PRINCIPALES:
+   - Agregar nuevos bautismos
+   - Generar certificados automáticamente
+   - Enviar emails con certificados
+   - Editar datos existentes
+   - Regenerar certificados
+   - Reenviar emails
+
+4. EDICIÓN DE DATOS:
+   - Selecciona un bautismo en la lista
+   - Haz clic en "✏️ Editar Seleccionado"
+   - Modifica los datos
+   - Guarda cambios y regenera certificado
+
+5. CONFIGURACIÓN DE CAMPOS:
+   - Si tu PDF tiene campos diferentes, edita data/field_mapping.json
+   - Formato: {"NOMBRE_COMPLETO": "tu_campo", ...}
+
+📞 SOPORTE:
+- Revisa los logs en la consola para errores
+- Verifica que el template PDF tenga campos válidos
+- Asegúrate de que la configuración de email sea correcta
+
+🎉 ¡Disfruta usando el Certificador de Bautismos v2.0!
